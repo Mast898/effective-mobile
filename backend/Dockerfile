@@ -1,11 +1,6 @@
 
 FROM python:3.11-slim
 
-
-LABEL maintainer="devops@example.com"
-LABEL description="Backend service for Effective Mobile test task"
-
-
 RUN groupadd -r appgroup && useradd -r -g appgroup appuser
 
 WORKDIR /app
